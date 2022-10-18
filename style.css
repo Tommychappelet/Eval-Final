@@ -1,0 +1,130 @@
+body {
+  display: flex;
+  margin: 20px;
+  height: 2099px;
+  font-family: 'Open Sans', sans-serif;
+  flex-direction: column;
+  background-color: #354463;
+}
+header {
+  background-color: white;
+  width: 1440px;
+  height: 120px;
+  flex-direction: row;
+  flex: start;
+}
+header ul a {
+  color: black;
+  text-decoration: none;
+  margin: 15px;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-left: 160px;
+}
+ul,
+li {
+  list-style: none;
+  margin: 20px;
+  padding: 2px;
+  display: flex;
+  color: black;
+}
+.bouton {
+  background-color: #C1F7D5;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+}
+.butbl {
+  background-color: #354463;
+  color: white;
+  width: 150px;
+  height: 50px;
+  margin-top: 112px;
+  margin-left: 224px ;
+  position: absolute;
+}
+.conteneur {
+  width: 1440px;
+  height: 672px;
+  background-image: linear-gradient(rgba(193, 247, 213, 0.6), rgba(193, 247, 213, 0.6)), url("forest-2942477_1920.jpg");
+}
+.carreblanc {
+  width: 544px;
+  height: 416px;
+  background-color: white;
+  margin-left: 160px;
+  margin-top: 128px;
+}
+h1 {
+  text-align: center;
+  color: #354463;
+}
+p {
+  text-decoration: underline;
+  color: #5B6781;
+  justify-content: center;
+  text-align: center;
+}
+.conteneur2 {
+  width: 1440px;
+  height: 240px;
+  background-color: #C1F7D5;
+  display: flex;
+  text-decoration: none;
+}
+.conteneur2 .text1 {
+  display: flex;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-top: 75px;
+  text-decoration: none;
+}
+.conteneur2 .text1 .t2 {
+  width: 232px;
+  height: 89px;
+  margin-right: 56px;
+  text-decoration: none;
+}
+.conteneur2 .text1 .t3 {
+  width: 232px;
+  height: 89px;
+  margin-right: 56px;
+  text-decoration: none;
+}
+.conteneur2 .text1 .t4 {
+  width: 232px;
+  height: 89px;
+  margin-right: 56px;
+  text-decoration: none;
+}
+.conteneur2 .text1 .t5 {
+  width: 232px;
+  height: 89px;
+  text-decoration: none;
+}
+.rectangle {
+  color: black;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  margin-left: 160px;
+  margin-top: 75px;
+}
+.butb2 {
+  background-color: #354463;
+  color: white;
+  width: 150px;
+  height: 50px;
+  margin-top: 200px;
+  margin-left: 1px ;
+  position: absolute;
+}
